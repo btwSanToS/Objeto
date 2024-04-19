@@ -48,3 +48,12 @@ A chave é de extrema importância para incluir os outros valores a serem inseri
 // Também é possível inserir um novo dado do objeto, acessando cada atributo.
 carro1.proprietario.endereco.bairro = "Bairro dos Estudiosos"
 console.log(carro1)
+console.log(`Condutores ativos: ${carro1.condutores.length}`)
+
+/*
+delete carro1.condutores
+delete carro1.calcularValorSeguro
+delete carro1.proprietario.endereco
+console.log(carro1)
+Como é possível incluir, o oposto também pode ser utilizado.
+*/
