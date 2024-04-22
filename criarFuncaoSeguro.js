@@ -39,7 +39,7 @@ const carro1 = {
         const idadeCondutor = parseInt(this.condutores[0].idade);
         const anoCarro = parseInt(this.ano);
 
-        let valorSeguro = (idadeCondutor * calculoIdade) * 100 + (2024 - anoCarro) * 50;
+        let valorSeguro = (idadeCondutor * calculoIdade2) * 100 + (2024 - anoCarro) * 50;
         return valorSeguro;
     }
 }
