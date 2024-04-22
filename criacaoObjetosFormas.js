@@ -37,3 +37,10 @@ const f2 = criarFuncionario('João', 7899, 1)
 
 console.log(f1.getSalario().toFixed(2))
 console.log(f2.getSalario().toFixed(2))
+//Teste automatização ↓↓↓↓
+console.log(`O(A) funcionário(a) ${f1.nome} recebeu R$${f1.getSalario().toFixed(2)} e o(a) funcionário(a) ${f2.nome} recebeu R$${f2.getSalario().toFixed(2)}`)
+
+//Object.create
+const filha = Object.create(null);
+filha.nome = 'Stela';
+console.log(filha)
